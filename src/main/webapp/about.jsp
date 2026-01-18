@@ -20,8 +20,9 @@
         <TD><%= price[i] %></TD>
         <TD><%= quantity[i] %></TD>
         <TD><%= price[i] * quantity[i] %></TD>
+        <TD><a href="NewTest.jsp">Go to Target Page</a></TD>
     </TR>
-    <% } //end for loop %>
+    <% } //end for loop  %>
 </TABLE>
 </BODY>
 </HTML>
